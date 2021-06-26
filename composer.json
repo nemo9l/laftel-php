@@ -1,0 +1,25 @@
+{
+    "name": "nemo9l/laftel",
+    "description": "Unofficial PHP Laftel.net API Wrapper",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nemo9l\\Laftel\\": "src",
+            "Nemo9l\\Laftel\\Models\\": "src/models"
+        }
+    },
+    "homepage": "https://github.com/nemo9l/laftel-php",
+    "authors": [
+        {
+            "name": "Ji Yong, Kim",
+            "email": "nemo@qroffle.com",
+            "homepage": "https://qroffle.com/"
+        }
+    ]
+}
